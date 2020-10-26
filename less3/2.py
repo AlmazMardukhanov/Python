@@ -1,0 +1,11 @@
+x=('Алмаз','Мардуханов','18')
+people=[]
+people.extend(x)
+print(people)
+y=('Владимир','Путин','68')
+people.extend(y)
+z=('Рустам','Минниханов','63')
+people.extend(z)
+print(people)
+people.sort(key=lambda item: item[0] )
+print(people)
